@@ -1,0 +1,29 @@
+.event-services-container {  
+    text-align: center;  
+    margin: 20px;  
+}  
+
+.event-services {  
+    display: flex;  
+    justify-content: space-around;  
+    margin-top: 20px;  
+}  
+
+.service-item {  
+    width: 22%; /* Adjust width as needed */  
+    text-align: center;  
+}  
+
+.service-item img {  
+    width: 100%;  
+    height: auto;  
+    border-radius: 10px; /* Add some rounding to images */  
+}  
+
+.service-item h3 {  
+    margin-top: 10px;  
+}  
+
+.service-item p {  
+    color: #666;  
+}

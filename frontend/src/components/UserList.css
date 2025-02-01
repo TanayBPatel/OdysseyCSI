@@ -1,0 +1,84 @@
+.order-history-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+input[type="text"], input[type="number"], select {
+  padding: 8px;
+  margin: 5px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #ff9f00;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #ff7e00;
+}
+
+.add-order-btn, .delete-btn {
+  background-color: #ff4d4d;
+}
+
+.add-order-btn:hover, .delete-btn:hover {
+  background-color: #e60000;
+}
+
+.order-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.order-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.order-avatar {
+  font-size: 40px;
+  text-align: center;
+}
+
+.order-details {
+  margin-top: 10px;
+}
+
+.order-details h4 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.delete-btn {
+  background-color: #ff4d4d;
+  border-radius: 50%;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.suggestions {
+  background-color: #fff3cd;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
