@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Hero from "./components/hero";
 import AI from "./components/ai";
 import Analytics from "./components/analytics";
@@ -15,7 +15,7 @@ import Profile from "./components/profile";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/dashboard" element={<Hero />} />
@@ -32,7 +32,7 @@ function App() {
         <Route path="/admin-analytics" element={<AdminAnalytics />} />
         <Route path="/admin-ai" element={<AdminAI />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
