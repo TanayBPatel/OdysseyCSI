@@ -20,9 +20,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/dashboard" element={<Hero />} />
-        {/* <Route path="/gsap" element={<Gsap />} /> */}
-        <Route path="/" element={<Hero />} />
-        <Route path="/dashboard" element={<Hero />} />
+        <Route path="/" element={<Login  />} />
+
         <Route path="/student-dashboard" element={<Hero />} />
         <Route path="/admin-dashboard" element={<Admin />} />
         <Route path="/ai" element={<AI />} />
